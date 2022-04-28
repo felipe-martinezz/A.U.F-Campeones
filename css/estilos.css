@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../imagenes/Camiseta-Uruguay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 90px 30px 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body:before{
+    content:"";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    /* background: linear-gradient(90deg, rgb(66, 3, 3), rgb(68, 3, 3)); */
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.header {
+    background-color: skyblue;
+    height: 130px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: +1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav__enlace {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav__lista {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav__item {
+    font-size: 22px;
+    margin: 0px 20px;
+    line-height: 130px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav__enlace:hover {
+    background-color: goldenrod;
+    transition: 0.5s;
+}
+
+/* Inicio */
+
+.section {
+    background-color: none;
+    min-height: 150vh;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.div__top{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: column;
+
+    padding: 5rem;
+    position: static;
+    }
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    position: static;
+    color: goldenrod;
+}
+
+.subtitle{
+    text-align: center;
+    padding: 2rem;
+    color: goldenrod;
+}
+
+.parrafo{
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.div__bottom{
+    padding: 1rem;
+    position: static;
+
+    border: 0px solid #555;
+    padding: 1rem;
+    min-height: 600px;
+
+    /* Agregando Grid al proyecto */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 200px 400px;
+    grid-template-areas: 
+    "ele1 ele1"
+    "ele2 ele3"
+    "ele4 ele5";
+
+    row-gap: 2rem;
+    column-gap: 1rem;
+    gap: 1rem;
+}
+
+.title__2{
+    font-size: 40px;
+    text-align: center;
+    position: static;
+    color: goldenrod;
+
+    grid-area: ele1;
+}
+
+.parrafo__2{
+    padding: 4rem;
+    text-align: center;
+    font-size: 20px;
+    margin-left: -2cm;
+
+    grid-area: ele2;
+}
+
+.parrafo__3{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 40px;
+
+    grid-area: ele3;
+}
+
+.imagen__uruguay{
+    margin-top: 50px;
+    margin-left: 3cm;
+
+    grid-area: ele4;
+}
+
+.imagen__uruguay2{
+    margin-top: 50px;
+    margin-left: 7cm;
+
+    grid-area: ele5;
+}
+
+.h3{
+    padding: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+    color: goldenrod;
+}
+
+.formulario{
+    padding: 0rem;
+    text-align: center;
+    color: goldenrod;
+}
+
+/* Footer */
+
+.redes__lista{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.redes__item{
+    font-size: 22px;
+    margin: 0px 20px;
+    line-height: 130px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.redes__enlace{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.redes__enlace:hover{
+    background-color: goldenrod;
+    transition: 0.5s;
+}
+
+.parrafo__footer{
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* 1930 */
+
+.h1{
+    padding: 4rem;
+    text-align: center;
+    color: goldenrod;
+}
+
+.parrafo__1930{
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+
+.plantel__1930{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas:
+    "ele1 ele2"
+    "ele3 ele4";
+    
+}
+
+.imagen__1930{
+    margin-top: 90px;
+    margin-left: 10cm;
+
+    grid-area: ele1;
+}
+
+.parrafo__1930bis{
+    margin-top: 360px;
+    margin-left: 10cm;
+    font-size: 22px;
+
+    grid-area: ele3;
+}
+
+.subtitulo__1930{
+    text-align: center;
+    padding: 3rem;
+    color: goldenrod;
+    font-size: 32px;
+
+    grid-area: ele2;
+}
+
+.lista__1930{
+    list-style: none;
+    margin-top: -7cm;
+    font-size: 20px;
+
+    grid-area: ele4;
+}
+
+.foto__1930{
+    margin-top: 4cm;
+    margin-left: 14cm;
+}
+
+/* 1950 */
+
+.parrafo__1950{
+    text-align: center;
+    font-size: 20px;
+}
+
+.plantel__1950{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas:
+    "ele1 ele2"
+    "ele3 ele4";
+    
+}
+
+
+.imagen__1950{
+    margin-top: 90px;
+    margin-left: 10cm;
+
+    grid-area: ele1;
+}
+
+.parrafo__1950bis{
+    margin-top: 360px;
+    margin-left: 10cm;
+    font-size: 22px;
+
+    grid-area: ele3;
+}
+
+.subtitulo__1950{
+    text-align: center;
+    padding: 3rem;
+    color: goldenrod;
+    font-size: 32px;
+
+    grid-area: ele2;
+}
+
+
+.lista__1950{
+    list-style: none;
+    margin-top: -7cm;
+    font-size: 20px;
+
+    grid-area: ele4;
+}
+
+/* Copa América */
+
+.parrafo__copa{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.imagen__copa{
+    margin-top: 2cm;
+    margin-left: 14cm;
+}
+
+.div__copa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas:
+    "ele1 ele2"
+    "ele3 ele4";
+    
+}
+
+.subtitulo__copa{
+    text-align: center;
+    padding: 7rem;
+    color: goldenrod;
+    font-size: 32px;
+
+    grid-area: ele1;
+}
+
+.subtitulo__copa2{
+    text-align: center;
+    padding: 7rem;
+    color: goldenrod;
+    font-size: 32px;
+
+    grid-area: ele2;
+}
+
+.parrafo__copa2{
+    text-align: center;
+    padding: 4cm;
+    font-size: 18px;
+    margin-top: 2cm;
+
+    grid-area: ele3;
+}
+
+.lista__copa{
+    text-align: center;
+    list-style: none;
+    margin-top: -5cm;
+    font-size: 22px;
+
+    grid-area: ele3;
+}
+
+.lista__copa2{
+    text-align: center;
+    list-style: none;
+    margin-top: -5cm;
+    font-size: 22px;
+
+    grid-area: ele4;
+}
+
+.video__copa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* JJOO */
+
+.parrafo__jjoo{
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.div__jjoo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px;
+    grid-template-areas:
+    "ele1 ele2"
+    "ele3 ele4";
+
+    column-gap: 1rem;
+}
+
+.subtitulo__jjoo{
+    text-align: center;
+    padding: 3rem;
+    color: goldenrod;
+    font-size: 22px;
+
+    grid-area: ele1;
+}
+
+.subtitulo__jjoo2{
+    text-align: center;
+    padding: 3rem;
+    color: goldenrod;
+    font-size: 22px;
+
+    grid-area: ele2;
+}
+
+.parrafo__jjoo1{
+    text-align: center;
+    padding: 2px;
+    margin-top: 2.5cm;
+    font-size: 18px;
+
+    grid-area: ele1
+}
+
+.parrafo__jjoo2{
+    text-align: center;
+    padding: 4px;
+    margin-top: 2.5cm;
+    font-size: 18px;
+
+    grid-area: ele2;
+}
+
+.imagen__jjoo{
+    margin-top: -4cm;
+    margin-left: 2cm;
+
+    grid-area: ele3;
+}
+
+.imagen__jjoo2{
+    margin-top: -4cm;
+    margin-left: 2cm;
+
+    grid-area: ele4;
+}
+
+.open__menu,
+.close__menu{
+    display: none;
+}
+
+/* Media Querys */
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 700px) {
+    .nav__enlace {
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 8px 12px;
+        border-radius: 3px;
+    }
+    
+    .nav__lista {
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: skyblue;
+        height: 100%;
+        overflow-y: auto;
+
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s;
+    }
+    
+    .nav__item {
+        padding: 0;
+    }
+    
+    .nav__enlace:hover {
+        background-color: goldenrod;
+        transition: 0.5s;
+    }
+
+    .open__menu,
+    .close__menu{
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+}
+
+.close__menu{
+    align-self: flex-end;
+    padding: 20px 5px;
+}
+
+.menu__opened{
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Media Query para la estructura */
+.div__top{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: column;
+    margin-left: 3cm;
+
+    padding: 3rem;
+    position: relative;
+    }
+
+.title{
+        font-size: 20px;
+        text-align: center;
+        position: static;
+        color: goldenrod;
+    }
+
+.subtitle{
+        text-align: center;
+        padding: 2rem;
+        color: goldenrod;
+        font-size: 18px;
+    }
+
+.parrafo{
+        padding: 1rem;
+        text-align: center;
+        font-size: 15px;
+    }  
+    
+.div__bottom{
+        padding: 1rem;
+        position: static;
+    
+        border: 0px solid #555;
+        padding: 1rem;
+        min-height: 600px;
+    
+        display: block;
+        grid-template-columns: 50%;
+        grid-template-rows: 50px 200px 400px;
+    }    
+    
+.title__2{
+        font-size: 20px;
+        text-align: center;
+        position: static;
+        color: goldenrod;
+    }
+
+.parrafo__2{
+        padding: 1rem;
+        text-align: center;
+        font-size: 15px;
+        margin-left: 2cm;
+    }
+
+.parrafo__3{
+        text-align: center;
+        font-size: 15px;
+        margin-left: 2cm;
+        margin-top: 1cm;
+    } 
+   
+.imagen__uruguay{
+        margin-top: 50px;
+        margin-left: 1cm;
+        width: 400px;
+        height: 300px;
+        
+    }    
+
+.imagen__uruguay2{
+        margin-top: 50px;
+        margin-left: 3cm;
+        width: 300px;
+        height: 400px;
+    } 
+    
+/* Footer Responsive */
+.redes__lista{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+/* 1930 - Responsive */
+
+.h1{
+    padding: 4rem;
+    font-size: 20px;
+}
+
+.parrafo__1930{
+    text-align: center;
+    font-size: 15px;
+}
+
+.plantel__1930{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+    display: block;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+    }
+
+.imagen__1930{
+        margin-top: 90px;
+        margin-left: 2cm;
+        width: 300px;
+        height: 400px;
+    }    
+
+.parrafo__1930bis{
+        margin-top: 50px;
+        margin-left: 2cm;
+        font-size: 15px;
+    }
+
+.subtitulo__1930{
+        text-align: center;
+        padding: 2rem;
+        color: goldenrod;
+        font-size: 20px;
+    }
+
+.lista__1930{
+        list-style: none;
+        margin-top: 0cm;
+        font-size: 15px;
+    }
+
+.foto__1930{
+        margin-top: 2cm;
+        margin-left: 2cm;
+        width: 400px;
+        height: 300px;
+    }    
+
+/* 1950 - Responsive */ 
+
+.parrafo__1950{
+    text-align: center;
+    font-size: 15px;
+}
+
+.plantel__1950{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+    display: block;
+    }
+
+.imagen__1950{
+        margin-top: 90px;
+        margin-left: 2cm;
+        width: 300px;
+        height: 400px;
+    }    
+
+.parrafo__1950bis{
+        margin-top: 50px;
+        margin-left: 2cm;
+        font-size: 15px;
+    }
+
+.subtitulo__1950{
+        text-align: center;
+        padding: 2rem;
+        font-size: 20px;
+    } 
+    
+.lista__1950{
+        list-style: none;
+        margin-top: 0cm;
+        font-size: 15px;
+    }  
+    
+ /* Copa América - Responsive */
+ 
+.parrafo__copa{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.imagen__copa{
+    margin-top: 2cm;
+    margin-left: 0cm;
+    width: 300px;
+    height: 200px;
+}
+
+.div__copa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+    display: block;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+}
+
+.subtitulo__copa{
+    text-align: center;
+    padding: 2rem;
+    font-size: 20px;
+}
+
+.lista__copa{
+    text-align: center;
+    list-style: none;
+    margin-top: 0cm;
+    font-size: 15px;
+}
+
+.parrafo__copa2{
+    text-align: center;
+    padding: 0cm;
+    font-size: 15px;
+    margin-top: 1cm;
+}
+
+.subtitulo__copa2{
+    text-align: center;
+    padding: 2rem;
+    font-size: 20px;
+}
+
+.lista__copa2{
+    text-align: center;
+    list-style: none;
+    margin-top: 0cm;
+    font-size: 15px;
+}
+
+.video__yt{
+    width: 360px;
+    height: 315px;
+}
+
+/* JJOO - Responsive */
+
+.parrafo__jjoo{
+    text-align: center;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.div__jjoo{
+    display: block;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px;
+}
+
+.subtitulo__jjoo{
+    text-align: center;
+    padding: 3rem;
+    font-size: 20px;
+}
+
+.parrafo__jjoo1{
+    text-align: center;
+    padding: 0;
+    margin-top: 0cm;
+    font-size: 15px;
+}
+
+.imagen__jjoo{
+    margin-top: 1cm;
+    margin-left: 2cm;
+    width: 400px;
+    height: 200px;
+}
+
+.subtitulo__jjoo2{
+    text-align: center;
+    padding: 3rem;
+    font-size: 20px;
+}
+
+.parrafo__jjoo2{
+    text-align: center;
+    padding: 0;
+    margin-top: 0cm;
+    font-size: 15px;
+}
+
+.imagen__jjoo2{
+    margin-top: 1cm;
+    margin-left: 2cm;
+    width: 400px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+    
+
+}
