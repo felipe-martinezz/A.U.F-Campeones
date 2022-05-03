@@ -174,6 +174,12 @@ body:before{
     grid-area: ele5;
 }
 
+.card{
+    margin-top: 6cm;
+    margin-left: 22cm;
+    text-align: center;
+}
+
 .h3{
     padding: 4rem;
     text-align: center;
@@ -290,6 +296,11 @@ body:before{
     margin-left: 14cm;
 }
 
+.card3{
+    margin-left: 14cm;
+    margin-top: 2cm;
+}
+
 /* 1950 */
 
 .parrafo__1950{
@@ -346,6 +357,11 @@ body:before{
     grid-area: ele4;
 }
 
+.card2{
+    margin-left: 14cm;
+    margin-top: 2cm;
+}
+
 /* Copa América */
 
 .parrafo__copa{
@@ -396,7 +412,7 @@ body:before{
     text-align: center;
     padding: 4cm;
     font-size: 18px;
-    margin-top: 2cm;
+    margin-top: 5cm;
 
     grid-area: ele3;
 }
@@ -424,6 +440,10 @@ body:before{
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+}
+
+.form-select{
+    margin-top: 2cm;
 }
 
 /* JJOO */
@@ -624,7 +644,7 @@ body:before{
    
 .imagen__uruguay{
         margin-top: 50px;
-        margin-left: 1cm;
+        margin-left: 0cm;
         width: 400px;
         height: 300px;
         
@@ -632,10 +652,14 @@ body:before{
 
 .imagen__uruguay2{
         margin-top: 50px;
-        margin-left: 3cm;
+        margin-left: 2cm;
         width: 300px;
         height: 400px;
     } 
+
+.card{
+    margin-left: 2cm;
+}
     
 /* Footer Responsive */
 .redes__lista{
@@ -698,10 +722,14 @@ body:before{
 
 .foto__1930{
         margin-top: 2cm;
-        margin-left: 2cm;
+        margin-left: 0cm;
         width: 400px;
         height: 300px;
-    }    
+    }   
+    
+.card3{
+    margin-left: 2cm;
+}    
 
 /* 1950 - Responsive */ 
 
@@ -743,6 +771,10 @@ body:before{
         margin-top: 0cm;
         font-size: 15px;
     }  
+
+.card2{
+    margin-left: 2cm;
+}
     
  /* Copa América - Responsive */
  
@@ -837,7 +869,7 @@ body:before{
 
 .imagen__jjoo{
     margin-top: 1cm;
-    margin-left: 2cm;
+    margin-left: 0cm;
     width: 400px;
     height: 200px;
 }
@@ -857,7 +889,7 @@ body:before{
 
 .imagen__jjoo2{
     margin-top: 1cm;
-    margin-left: 2cm;
+    margin-left: 0cm;
     width: 400px;
     height: 200px;
 }
