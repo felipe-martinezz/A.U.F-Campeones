@@ -645,7 +645,7 @@ body:before{
 .imagen__uruguay{
         margin-top: 50px;
         margin-left: 0cm;
-        width: 400px;
+        width: 380px;
         height: 300px;
         
     }    
@@ -722,9 +722,9 @@ body:before{
 
 .foto__1930{
         margin-top: 2cm;
-        margin-left: 0cm;
-        width: 400px;
-        height: 300px;
+        margin-left: 1cm;
+        width: 350px;
+        height: 250px;
     }   
     
 .card3{
@@ -869,8 +869,8 @@ body:before{
 
 .imagen__jjoo{
     margin-top: 1cm;
-    margin-left: 0cm;
-    width: 400px;
+    margin-left: 0.5cm;
+    width: 350px;
     height: 200px;
 }
 
@@ -889,8 +889,8 @@ body:before{
 
 .imagen__jjoo2{
     margin-top: 1cm;
-    margin-left: 0cm;
-    width: 400px;
+    margin-left: 0.5cm;
+    width: 350px;
     height: 200px;
 }
 
