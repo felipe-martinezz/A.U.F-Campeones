@@ -589,7 +589,7 @@ body:before{
     }
 
 .title{
-        font-size: 20px;
+        font-size: 24px;
         text-align: center;
         position: static;
         color: goldenrod;
@@ -597,15 +597,15 @@ body:before{
 
 .subtitle{
         text-align: center;
-        padding: 2rem;
+        padding: 1rem;
         color: goldenrod;
-        font-size: 18px;
+        font-size: 22px;
     }
 
 .parrafo{
-        padding: 1rem;
+        padding: 0rem;
         text-align: center;
-        font-size: 15px;
+        font-size: 18px;
     }  
     
 .div__bottom{
@@ -613,7 +613,7 @@ body:before{
         position: static;
     
         border: 0px solid #555;
-        padding: 1rem;
+        padding: 0rem;
         min-height: 600px;
     
         display: block;
@@ -622,7 +622,7 @@ body:before{
     }    
     
 .title__2{
-        font-size: 20px;
+        font-size: 24px;
         text-align: center;
         position: static;
         color: goldenrod;
@@ -631,14 +631,14 @@ body:before{
 .parrafo__2{
         padding: 1rem;
         text-align: center;
-        font-size: 15px;
-        margin-left: 2cm;
+        font-size: 18px;
+        margin-left: 1cm;
     }
 
 .parrafo__3{
         text-align: center;
-        font-size: 15px;
-        margin-left: 2cm;
+        font-size: 18px;
+        margin-left: 1cm;
         margin-top: 1cm;
     } 
    
@@ -675,12 +675,12 @@ body:before{
 
 .h1{
     padding: 4rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .parrafo__1930{
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .plantel__1930{
@@ -696,28 +696,28 @@ body:before{
 
 .imagen__1930{
         margin-top: 90px;
-        margin-left: 2cm;
+        margin-left: 0cm;
         width: 300px;
         height: 400px;
     }    
 
 .parrafo__1930bis{
         margin-top: 50px;
-        margin-left: 2cm;
-        font-size: 15px;
+        margin-left: 0cm;
+        font-size: 18px;
     }
 
 .subtitulo__1930{
         text-align: center;
         padding: 2rem;
         color: goldenrod;
-        font-size: 20px;
+        font-size: 24px;
     }
 
 .lista__1930{
         list-style: none;
         margin-top: 0cm;
-        font-size: 15px;
+        font-size: 18px;
     }
 
 .foto__1930{
@@ -735,7 +735,7 @@ body:before{
 
 .parrafo__1950{
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .plantel__1950{
@@ -749,27 +749,27 @@ body:before{
 
 .imagen__1950{
         margin-top: 90px;
-        margin-left: 2cm;
+        margin-left: 0cm;
         width: 300px;
         height: 400px;
     }    
 
 .parrafo__1950bis{
         margin-top: 50px;
-        margin-left: 2cm;
-        font-size: 15px;
+        margin-left: 0cm;
+        font-size: 18px;
     }
 
 .subtitulo__1950{
         text-align: center;
         padding: 2rem;
-        font-size: 20px;
+        font-size: 24px;
     } 
     
 .lista__1950{
         list-style: none;
         margin-top: 0cm;
-        font-size: 15px;
+        font-size: 18px;
     }  
 
 .card2{
@@ -781,12 +781,12 @@ body:before{
 .parrafo__copa{
     text-align: center;
     padding: 10px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .imagen__copa{
     margin-top: 2cm;
-    margin-left: 0cm;
+    margin-left: 1cm;
     width: 300px;
     height: 200px;
 }
@@ -805,34 +805,34 @@ body:before{
 .subtitulo__copa{
     text-align: center;
     padding: 2rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .lista__copa{
     text-align: center;
     list-style: none;
     margin-top: 0cm;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .parrafo__copa2{
     text-align: center;
     padding: 0cm;
-    font-size: 15px;
+    font-size: 18px;
     margin-top: 1cm;
 }
 
 .subtitulo__copa2{
     text-align: center;
     padding: 2rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .lista__copa2{
     text-align: center;
     list-style: none;
     margin-top: 0cm;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .video__yt{
@@ -845,7 +845,7 @@ body:before{
 .parrafo__jjoo{
     text-align: center;
     padding: 4px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .div__jjoo{
@@ -857,14 +857,14 @@ body:before{
 .subtitulo__jjoo{
     text-align: center;
     padding: 3rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .parrafo__jjoo1{
     text-align: center;
     padding: 0;
     margin-top: 0cm;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .imagen__jjoo{
@@ -877,14 +877,14 @@ body:before{
 .subtitulo__jjoo2{
     text-align: center;
     padding: 3rem;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .parrafo__jjoo2{
     text-align: center;
     padding: 0;
     margin-top: 0cm;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .imagen__jjoo2{
