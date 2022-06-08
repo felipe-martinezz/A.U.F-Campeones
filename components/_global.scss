@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../imagenes/Camiseta-Uruguay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 90px 30px 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body:before{
+    content:"";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    /* background: linear-gradient(90deg, rgb(66, 3, 3), rgb(68, 3, 3)); */
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.header {
+    background-color: skyblue;
+    height: 130px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: +1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav__enlace {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav__lista {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav__item {
+    font-size: 22px;
+    margin: 0px 20px;
+    line-height: 130px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav__enlace:hover {
+    background-color: goldenrod;
+    transition: 0.5s;
+}

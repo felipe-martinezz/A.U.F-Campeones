@@ -1,0 +1,60 @@
+/* 1950 */
+
+.parrafo__1950{
+    text-align: center;
+    font-size: 20px;
+}
+
+.plantel__1950{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas:
+    "ele1 ele2"
+    "ele3 ele4";
+    
+}
+
+
+.imagen__1950{
+    margin-top: 90px;
+    margin-left: 10cm;
+
+    grid-area: ele1;
+}
+
+.parrafo__1950bis{
+    margin-top: 360px;
+    margin-left: 10cm;
+    font-size: 22px;
+
+    grid-area: ele3;
+}
+
+.subtitulo__1950{
+    text-align: center;
+    padding: 3rem;
+    color: goldenrod;
+    font-size: 32px;
+
+    grid-area: ele2;
+}
+
+
+.lista__1950{
+    list-style: none;
+    margin-top: -7cm;
+    font-size: 20px;
+
+    grid-area: ele4;
+}
+
+.card2{
+    margin-left: 14cm;
+    margin-top: 2cm;
+}

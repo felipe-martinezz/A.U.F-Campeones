@@ -1,0 +1,120 @@
+/* Inicio */
+
+.section {
+    background-color: none;
+    min-height: 150vh;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.div__top{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-flow: column;
+
+    padding: 5rem;
+    position: static;
+    }
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    position: static;
+    color: goldenrod;
+}
+
+.subtitle{
+    text-align: center;
+    padding: 2rem;
+    color: goldenrod;
+}
+
+.parrafo{
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.div__bottom{
+    padding: 1rem;
+    position: static;
+
+    border: 0px solid #555;
+    padding: 1rem;
+    min-height: 600px;
+
+    /* Agregando Grid al proyecto */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 200px 400px;
+    grid-template-areas: 
+    "ele1 ele1"
+    "ele2 ele3"
+    "ele4 ele5";
+
+    row-gap: 2rem;
+    column-gap: 1rem;
+    gap: 1rem;
+}
+
+.title__2{
+    font-size: 40px;
+    text-align: center;
+    position: static;
+    color: goldenrod;
+
+    grid-area: ele1;
+}
+
+.parrafo__2{
+    padding: 4rem;
+    text-align: center;
+    font-size: 20px;
+    margin-left: -2cm;
+
+    grid-area: ele2;
+}
+
+.parrafo__3{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 40px;
+
+    grid-area: ele3;
+}
+
+&__uruguay{
+    margin-top: 50px;
+    margin-left: 3cm;
+
+    grid-area: ele4;
+}
+
+&__uruguay2{
+    margin-top: 50px;
+    margin-left: 7cm;
+
+    grid-area: ele5;
+}
+
+.card{
+    margin-top: 6cm;
+    margin-left: 22cm;
+    text-align: center;
+}
+
+.h3{
+    padding: 4rem;
+    text-align: center;
+    margin-top: 3rem;
+    color: goldenrod;
+}
+
+.formulario{
+    padding: 0rem;
+    text-align: center;
+    color: goldenrod;
+}
+

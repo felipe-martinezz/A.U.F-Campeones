@@ -1,0 +1,73 @@
+/* JJOO */
+
+.parrafo__jjoo{
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.div__jjoo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px;
+    grid-template-areas:
+    "ele1 ele2"
+    "ele3 ele4";
+
+    column-gap: 1rem;
+}
+
+.subtitulo__jjoo{
+    text-align: center;
+    padding: 3rem;
+    color: goldenrod;
+    font-size: 22px;
+
+    grid-area: ele1;
+}
+
+.subtitulo__jjoo2{
+    text-align: center;
+    padding: 3rem;
+    color: goldenrod;
+    font-size: 22px;
+
+    grid-area: ele2;
+}
+
+.parrafo__jjoo1{
+    text-align: center;
+    padding: 2px;
+    margin-top: 2.5cm;
+    font-size: 18px;
+
+    grid-area: ele1
+}
+
+.parrafo__jjoo2{
+    text-align: center;
+    padding: 4px;
+    margin-top: 2.5cm;
+    font-size: 18px;
+
+    grid-area: ele2;
+}
+
+.imagen__jjoo{
+    margin-top: -4cm;
+    margin-left: 2cm;
+
+    grid-area: ele3;
+}
+
+.imagen__jjoo2{
+    margin-top: -4cm;
+    margin-left: 2cm;
+
+    grid-area: ele4;
+}
+
+.open__menu,
+.close__menu{
+    display: none;
+}

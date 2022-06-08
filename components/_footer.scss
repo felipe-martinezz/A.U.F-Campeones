@@ -1,0 +1,35 @@
+/* Footer */
+
+&__lista{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+&__item{
+    font-size: 22px;
+    margin: 0px 20px;
+    line-height: 130px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+&__enlace{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+&__enlace:hover{
+    background-color: goldenrod;
+    transition: 0.5s;
+}
+
+.parrafo__footer{
+    text-align: center;
+    color: whitesmoke;
+}
